@@ -1,15 +1,15 @@
 function contarVogais(texto) {
-    const vogais = "aeiouAEIOU";
-    let contador = 0;
+    const vogais = "aeiouAEIOU"
+    let contador = 0
 
  for (let i = 0; i < texto.length; i++) {
     if (vogais.includes(texto[i])) {
-            contador++;
+            contador++
         }
     }
 
-    return contador;
+    return contador
 }
 
-const texto = "Hello World! Programando em JavaScript.";
+const texto = "Hello World! Programando em JavaScript."
 console.log(contarVogais(texto))

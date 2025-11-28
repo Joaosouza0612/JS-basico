@@ -1,18 +1,18 @@
 function encontrarMaiorNumero(numeros) {
   if (numeros.length === 0) {
-    return null; // ou poderia retornar "Array vazio"
+    return null
   }
 
   let maior = numeros[0];
 
   for (let i = 1; i < numeros.length; i++) {
     if (numeros[i] > maior) {
-      maior = numeros[i];
+      maior = numeros[i]
     }
   }
 
-  return maior;
+  return maior
 }
 
-const numeros = [15, 8, 23, 4, 42, 16];
+const numeros = [15, 8, 23, 4, 42, 16]
 console.log(encontrarMaiorNumero(numeros))

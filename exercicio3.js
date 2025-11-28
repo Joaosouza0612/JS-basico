@@ -1,15 +1,15 @@
 function verificarStatusAluno(aluno) {
-    let status = "";
+    let status = ""
 
  if (aluno.nota >= 7) {
-      status = "Aprovado";
+      status = "Aprovado"
     } else if (aluno.nota >= 5) {
-        status = "Recuperação";
+        status = "Recuperação"
     } else {
-        status = "Reprovado";
+        status = "Reprovado"
 }
 
-    return `${aluno.nome}: ${status}`;
+    return `${aluno.nome}: ${status}`
 }
 
 const aluno1 = { nome: "Maria", nota: 8.5 };

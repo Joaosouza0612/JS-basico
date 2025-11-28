@@ -2,8 +2,8 @@ function somarPares(array) {
     let soma = 0;
 
 for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {  // verifica se é par
-         soma += array[i];     // soma os pares
+    if (array[i] % 2 === 0) {  
+         soma += array[i];    
        }
     }
 
