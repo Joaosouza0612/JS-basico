@@ -9,5 +9,5 @@ function verificarStatusAluno(aluno) {
     status = "Reprovado";
   }
 
-  return `${aluno.nome:} ${status}`;
+  return `${aluno.nome}: ${status}`;
 }
