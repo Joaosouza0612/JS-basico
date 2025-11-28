@@ -3,7 +3,7 @@ function encontrarMaiorNumero(array) {
         return null;
     }
 
-    let maiorNumero = arr[0];
+    let maiorNumero = array[0];
 
     for (let i = 1; i < array.length; i++) {
         if (array[i] > maiorNumero) {
