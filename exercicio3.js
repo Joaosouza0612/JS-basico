@@ -11,3 +11,4 @@ function verificarStatusAluno(aluno) {
 
   return `${aluno.nome}: ${status}`;
 }
+console.log(verificarStatusAluno({ nome: "Maria", nota: 8.5 }));
