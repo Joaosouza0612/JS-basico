@@ -1,1 +1,1 @@
-encontrarProdutoMaisCaro
+function encontrarProdutoMaisCaro
