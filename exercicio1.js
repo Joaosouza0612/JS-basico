@@ -15,4 +15,4 @@ function encontrarMaiorNumero(array) {
 }
 
 const numeros = [15, 8, 23, 4, 42, 16];
-console.log(encontrarMaiorNumero(numeros)); // 42
+console.log(encontrarMaiorNumero(numeros)); 
